@@ -1,193 +1,359 @@
 /* inidio de mi pagina "Header" */
 .fondo {
-        background-color: rgb(224, 153, 22);
-        width: cover;
-    height: 110px;
-    max-width:100%;
-    border: 5px solid rgb(196, 214, 30);
+    background-color: rgb(224, 153, 22);
+    width: cover;
+height: 90px;
+max-width:100%;
+border: 5px solid rgb(196, 214, 30);
 }
 
 .imagen { 
-    width: 130px;
-    height: 80px;
-    float: left;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left:10px;
-    max-width:100%;
+width: 5%;
+height: 70%;
+float: left;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left:10px;
+max-width:100%;
 }
 
 .titulo { 
-   text-align: center;
+text-align: center;
+justify-content: center;
+    display: flex;
     justify-content: center;
-        display: flex;
-        justify-content: center;
-        margin-top: 1em;
-        font-size: x-large;
-        margin-right: 150px;
+    font-size: x-large;
+    margin-top: 1%;
+    margin-right: 5%;
 }
 /* BARRA DE NAVEGACIÓN */
 
 .BarraNav {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(247, 247, 202) ;
+display: flex;
+justify-content: center;
+background-color: rgb(247, 247, 202) ;
+text-align: center;
 }
 
-
 .ul {
-    margin-top: 1.5em;
-    font-size: medium;
-    margin-right: 3em;
+font-size: medium;
+margin-top: 1%;
 }
 
 .li { 
-    display: flex;
-    list-style-type: none;
+display: flex;
+list-style-type: none;
 }
 
 a {
-  color:#070707;
-  padding: 10px;
-  text-decoration:none;
-  font-size: x-large;
-  font-weight: bold;
+color:#070707;
+padding: 10px 3rem;
+text-decoration:none;
+font-size: x-large;
+font-weight: bold;
 }
 
 /* acá empieza mi carrousel */
 .carousel-inner {
-    display: flex;
-    width: 100%;
-    height: center;
-    margin-top: 0.5em;
-    margin-bottom: 1rem;
-    justify-content: center;
-    background-position: center center;
-    background-repeat: no-repeat;
-    border: 5px solid rgb(165, 192, 13);
-    flex-wrap: wrap;
+display: flex;
+width: 100%;
+height: center;
+margin-bottom: 1rem;
+justify-content: center;
+background-position: center center;
+background-repeat: no-repeat;
+border: 5px solid rgb(165, 192, 13);
+flex-wrap: wrap;
 }
 
 .imagenes-carousel {
-    width: 100%;
-    height: 100%;
-    display: flex;
+width: 100%;
+height: 100%;
+display: flex;
 }
 /* Conoce nuestros productos */
 .productos {
-    display: flex;
-    font-size: 30px;
-    justify-content: center;
-    color: rgb(216, 168, 35);
-   font-weight: bold;
-   background-color: rgb(247, 247, 202) ;
+display: flex;
+font-size: 30px;
+justify-content: center;
+color: rgb(216, 168, 35);
+font-weight: bold;
+background-color: rgb(247, 247, 202) ;
 }
 
 /* Acá empiezan mis imagenes en circulo */
 
 .circulo-comentario {
-    position: relative;
-    display: inline-block;
-    font-size: large;
-    color: rgb(216, 168, 35);
-    font-weight: bold;
- }
+position: relative;
+display: inline-block;
+font-size: large;
+color: rgb(216, 168, 35);
+font-weight: bold;
+}
 
+.circulo-comentario p {
+padding-top: 1rem;
+}
 /* Circulos con imagen  */
 
 .contenedor {
-    justify-content: center;
-    text-align: center;
+justify-content: center;
+text-align: center;
 position: relative;
 display: flex;
 justify-content: space-around;
-  }
+}
 
 .circle {
-    width: 20vw;
-	height: 20vw;
-    border-radius: 50%;
-    border: 5px solid rgb(164, 211, 33);
-    overflow: hidden;
+width: 20vw;
+height: 20vw;
+border-radius: 50%;
+border: 5px solid rgb(164, 211, 33);
+overflow: hidden;
 }
 
 .circle img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* para ajustar la imagen dentro del círculo */
-  }
-
-.comentario-circulo {
-    margin-top: 10%;
+width: 100%;
+height: 100%;
+object-fit: cover; /* para ajustar la imagen dentro del círculo */
 }
 
-  /* acá empieza la historia */
+/* acá empieza la historia */
 
 .tequeño { 
-    display: flex;
-    font-size: 30px;
-    color: rgb(216, 168, 35);
-    margin: 0;
-    justify-content: center;
-    background-color: rgb(247, 247, 202) ;
+display: flex;
+font-size: 30px;
+color: rgb(216, 168, 35);
+margin: 0;
+justify-content: center;
+background-color: rgb(247, 247, 202) ; 
 }
-  
+
 .parrafos { 
-    display: flex;
+display: flex;
 }
 
 .imagen-doble {
-    display: flex;
-    width: 30%;
-    height: 10%;
-    margin-top: 30px;
-    margin-left: 100px;
-    margin-right: 3em;
-    border: 5px solid rgb(164, 211, 33);
+display: flex;
+width: 30%;
+height: 10%;
+margin-top: 30px;
+margin-left: 100px;
+margin-right: 3em;
+border: 5px solid rgb(164, 211, 33);
 }
 
 .text-container {
-    margin-top: 20px;
+margin-top: 20px;
 }
 
 .teque { 
-    font-size: x-large;
-    margin-right: 30px;
-    font-size: 20px; 
+font-size: x-large;
+margin-right: 30px;
+font-size: 20px; 
 }
 
 .teque-ajo { 
-    display: flex;
-    margin-top: 8%;
+display: flex;
+margin-top: 8%;
 }
 
 .imagen-ajo {
-    width: 11%;
-    height: 11%;
-    border: 5px solid rgb(164, 211, 33);
-    margin-left: 5%;
+width: 11%;
+height: 11%;
+border: 5px solid rgb(164, 211, 33);
+margin-left: 5%;
 }
 
 .tequeños-super { 
-    color: rgb(216, 168, 35);
-    font-size: 20px;
+color: rgb(216, 168, 35);
+font-size: 20px;
 }
 
 .tequesuper {
-    color: black;
+color: black;
 }
 
 
 .imagen-congelado{
-    width: 13%;
-    height: 13%;
-    border: 5px solid rgb(164, 211, 33);
-    margin-right: 5%;
+width: 13%;
+height: 13%;
+border: 5px solid rgb(164, 211, 33);
+margin-right: 5%;
 }
 
 .imagen-choco {
-    width: 15%;
-    height: 15%;
-    border: 5px solid rgb(164, 211, 33);
-    margin-left: 5%;
+width: 15%;
+height: 15%;
+border: 5px solid rgb(164, 211, 33);
+margin-left: 5%;
+}
+
+.footer {
+    margin-top: 2%;
+    background-color: rgb(224, 153, 22);
+    width: cover;
+height: 60px;
+max-width:100%;
+text-align: center;
+border: 5px solid rgb(196, 214, 30);
+}
+
+
+/* seccion nosotros */
+.seccion_nosotros {
+margin: 4rem 0rem;
+}
+
+.texto_nosotros {
+margin: 0rem 12rem 0rem 4rem;
+}
+.imagen_nosotros {
+display: flex;  
+justify-content: center;
+}
+
+.imagen_nosotros img {
+width: 500px; 
+}
+
+/* --SECCION DE CONTACTO-- */
+
+.contenedor__contacto{
+margin: 4rem 0rem;
+text-align: center;
+
+}
+
+.contenedor__contacto h1{
+text-align: center;
+margin-bottom: 2rem;
+}
+
+.contacto__parrafos{
+text-align: start;
+margin: 2rem 4rem 0rem 6.5rem;
+font-family: 'Quicksand', sans-serif;
+}
+
+/* Formulario de contacto */
+
+.contenedor__formulario{
+margin: 4rem auto;
+width: 500px;
+/* text-align: center; */
+}
+
+
+.contenedor__formulario h1{
+text-align: center;
+font-size: 30px;
+font-family: 'Quicksand', sans-serif;
+margin: 2rem 0rem;
+}
+
+label {
+display: block;
+}
+
+textarea {
+width: 100%;
+padding: 1rem;
+}
+
+textarea {
+resize: none;
+}
+
+.full {
+grid-column: 1 / 3;
+}
+
+.boton__formulario{
+background-color: rgb(196, 214, 30);
+width: 100%;
+}
+
+.boton__formulario:hover{
+background-color: rgb(224, 153, 22);
+transition: 0.4s;
+}
+
+/* --FOOTER-- */
+
+.site-footer
+{
+background-color:rgb(224, 153, 22);
+padding:45px 0 20px;
+font-size:15px;
+line-height:24px;
+color:#ffffff;
+}
+.site-footer hr
+{
+border-top-color:#bbb;
+opacity:0.5
+}
+.site-footer hr.small
+{
+margin:20px 0
+}
+.site-footer h6
+{
+color:#fff;
+font-size:16px;
+text-transform:uppercase;
+margin-top:5px;
+letter-spacing:2px
+}
+
+.footer-links li
+{
+display:block;
+}
+.footer-links a
+{
+color:#ffffff
+}
+
+.footer-links.inline li
+{
+display:inline-block
+}
+.site-footer .social-icons
+{
+text-align:right
+}
+
+.copyright-text
+{
+margin:0
+}
+@media (max-width:991px)
+{
+.site-footer [class^=col-]
+{
+margin-bottom:30px
+}
+}
+@media (max-width:767px)
+{
+.site-footer
+{
+padding-bottom:0
+}
+.site-footer .copyright-text,.site-footer .social-icons
+{
+text-align:center
+}
+}
+
+@media (max-width:767px)
+{
+.social-icons li.title
+{
+display:block;
+margin-right:0;
+font-weight:600
+}
 }
