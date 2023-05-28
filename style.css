@@ -174,7 +174,6 @@ font-size: 20px;
 color: black;
 }
 
-
 .imagen-congelado{
 width: 13%;
 height: 13%;
@@ -198,7 +197,6 @@ max-width:100%;
 text-align: center;
 border: 5px solid rgb(196, 214, 30);
 }
-
 
 /* seccion nosotros */
 .seccion_nosotros {
@@ -243,7 +241,6 @@ margin: 4rem auto;
 width: 500px;
 /* text-align: center; */
 }
-
 
 .contenedor__formulario h1{
 text-align: center;
