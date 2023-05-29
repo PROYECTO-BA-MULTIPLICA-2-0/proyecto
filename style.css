@@ -203,8 +203,14 @@ border: 5px solid rgb(196, 214, 30);
 margin: 4rem 0rem;
 }
 
+.Nuestro-logo {
+    font-weight: bold;
+    font-size: large;
+}
+
 .texto_nosotros {
 margin: 0rem 12rem 0rem 4rem;
+
 }
 .imagen_nosotros {
 display: flex;  
@@ -212,10 +218,60 @@ justify-content: center;
 }
 
 .imagen_nosotros img {
-width: 500px; 
+width: 20%; 
+justify-content: center;
 }
 
-/* --SECCION DE CONTACTO-- */
+.Texto_instagram { 
+margin: 0rem 12rem 0rem 4rem;
+}
+
+.QR { 
+    margin-top: 5%;
+}
+
+.video{
+    width: 2%;
+    display: flex;
+    height: 10%;
+}
+
+/* SECCION DE MENÚ */
+
+
+.Menu{
+    background-color: rgb(161, 155, 155);
+    width: 50%;
+    margin: auto;
+    margin-top: 2%;
+    border: 5px solid rgb(196, 214, 30);
+}
+
+.Menu img{
+    width: 30%;
+}
+.texto_menu { 
+   margin-left: 5%;
+}
+
+.menu_tequenita { 
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.Promociones {
+    font-size: large;
+    text-align: center;
+}
+
+.imagen_menu {
+        float: right;
+        margin-right: 15%;
+}
+
+
+/* --SECCION DE EMPLEO-- */
 
 .contenedor__contacto{
 margin: 4rem 0rem;
@@ -249,6 +305,13 @@ font-family: 'Quicksand', sans-serif;
 margin: 2rem 0rem;
 }
 
+.equipo{
+    font-weight: bold; 
+}
+
+.whatsapp { 
+    font-size: unset; /* Elimina el tamaño de fuente predeterminado */
+}
 label {
 display: block;
 }
