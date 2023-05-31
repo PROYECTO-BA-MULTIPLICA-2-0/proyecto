@@ -228,7 +228,9 @@ justify-content: center;
 }
 
 /* Formulario de contacto */
-
+.equipo{
+  font-weight: bold;
+}
 .container__formulario{
   width: 500px;
   margin-bottom: 5rem;
