@@ -231,14 +231,14 @@ margin: 0rem 12rem 0rem 4rem;
 }
 
 .video{
-    width: 2%;
     display: flex;
-    height: 10%;
+    width: 2%;
 }
 
 .video__nosotros{
     margin-left: 4rem;
 }
+
 
 /* SECCION DE MENÚ */
 
