@@ -229,6 +229,11 @@ justify-content: center;
 
 /* Formulario de contacto */
 
+.container__formulario{
+  width: 500px;
+  margin-bottom: 5rem;
+}
+
 .contenedor__formulario{
 margin: 4rem auto;
 width: 500px;
