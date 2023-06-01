@@ -58,42 +58,44 @@
  </section>
 
 <!-- Formulario de contacto-->
-<form class="contenedor__formulario">
-    <p class="equipo">¿Querés formar parte de nuestro equipo?</p>
-    <p>LLená el siguiente formulario y nos comunicamos con vos a la brevedad posible.</p>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
-        </div>
-
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
-                <div id="emailHelp" class="form-text">Su email no sera compartido.
-                </div>
-        </div>
-              
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">telefono</label>
-            <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
-        </div>
-
-        <div class="mb-3">
-        <p class="full">
-            <label>Mensaje</label>
-            <textarea name="mensaje" required></textarea>
-        </p>
-        </div>
-
-        <div>
-            <label for="archivo">Subí tu C.V. aquí</label>
-            <input type="file" id="archivo" name="archivo">
-        </div>
-
-    <button type="submit" class="btn boton__formulario">Enviar</button>
-</form>
-
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<form action="https://formsubmit.co/tequenita2021@gmail.com" method="POST">
+    <div class="contenedor__formulario">
+       <p class="equipo">¿Querés formar parte de nuestro equipo?</p>
+       <p>LLená el siguiente formulario y nos comunicamos con vos a la brevedad posible.</p>
+           <div class="mb-3">
+               <label for="exampleInputEmail1" class="form-label">Nombre</label>
+               <input type="text" id="name" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+           </div>
+   
+           <div class="mb-3">
+               <label for="exampleInputEmail1" class="form-label">Email</label>
+               <input type="email" id="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                   <div id="emailHelp" class="form-text">Su email no sera compartido.
+                   </div>
+           </div>
+                 
+           <div class="mb-3">
+               <label for="exampleInputEmail1" class="form-label">telefono</label>
+               <input type="number" id="telefono" name="telefono" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+           </div>
+   
+           <div class="mb-3">
+           <p class="full">
+               <label>Mensaje</label>
+               <textarea name="mensaje" required></textarea>
+           </p>
+           </div>
+   
+           <div>
+               <label for="archivo">Subí tu C.V. aquí</label>
+               <input type="file" id="archivo" name="archivo">
+           </div>
+   
+       <button type="submit" class="btn boton__formulario" value="Enviar">Enviar</button>
+       <input type="hidden" name="_next" value="http://127.0.0.1:5500/"> 
+   </div>
+   </form>
+   
 </body>
 
 <!-- footer = Pié de mi página -->

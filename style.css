@@ -199,6 +199,7 @@ border: 5px solid rgb(196, 214, 30);
 }
 
 /* seccion nosotros */
+
 .seccion_nosotros {
 margin: 4rem 0rem;
 }
@@ -212,9 +213,10 @@ margin: 4rem 0rem;
 margin: 0rem 12rem 0rem 4rem;
 
 }
+
 .imagen_nosotros {
-display: flex;  
-justify-content: center;
+    display: flex;  
+    justify-content: center;
 }
 
 .imagen_nosotros img {
@@ -230,21 +232,35 @@ margin: 0rem 12rem 0rem 4rem;
     margin-top: 5%;
 }
 
-.video{
+.video__instagram{
     display: flex;
-    width: 2%;
+    justify-content: center;
 }
 
 .video__nosotros{
     margin-left: 4rem;
 }
 
+.video__nosotros{
+display: flex;  
+justify-content: center;
+}
+
+.imagen_instagram { 
+    display: flex;  
+justify-content: center;
+margin-top: 2%;
+}
+
+.video___instagram { 
+    margin-right: 3%;
+}
 
 /* SECCION DE MENÚ */
 
-
 .Menu{
-    background-color: rgb(161, 155, 155);
+    display: flex;
+    background-color: rgb(233, 213, 102);
     width: 50%;
     margin: auto;
     margin-top: 2%;
@@ -269,11 +285,13 @@ margin: 0rem 12rem 0rem 4rem;
     text-align: center;
 }
 
-.imagen_menu {
-        float: right;
-        margin-right: 15%;
+.imagen_menu img {
+    float: right;
+    width: 40%;
+    margin-right: 6%;
+    margin-top: 10%;
 }
-
+ 
 
 /* --SECCION DE EMPLEO-- */
 
