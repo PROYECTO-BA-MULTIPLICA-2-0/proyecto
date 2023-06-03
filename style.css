@@ -114,9 +114,9 @@ object-fit: cover; /* para ajustar la imagen dentro del círculo */
 display: flex;
 font-size: 30px;
 color: rgb(216, 168, 35);
-margin: 0;
 justify-content: center;
-background-color: rgb(247, 247, 202) ; 
+background-color: rgb(247, 247, 202) ;
+margin-right: 20px;
 }
 
 .parrafos { 
@@ -125,11 +125,10 @@ display: flex;
 
 .imagen-doble {
 display: flex;
-width: 30%;
-height: 10%;
+width: 200px;
 margin-top: 30px;
-margin-left: 100px;
-margin-right: 3em;
+margin-left: 50px;
+margin-right: 20px;
 border: 5px solid rgb(164, 211, 33);
 }
 
@@ -138,19 +137,19 @@ margin-top: 20px;
 }
 
 .teque { 
-font-size: x-large;
+font-size: 20px;
 margin-right: 30px;
 font-size: 20px; 
 }
 
 .teque-ajo { 
 display: flex;
-margin-top: 8%;
+margin-top: 40px;
 }
 
 .imagen-ajo {
-width: 11%;
-height: 11%;
+width: 250px;
+height: 250px;
 border: 5px solid rgb(164, 211, 33);
 margin-left: 5%;
 }
@@ -165,17 +164,15 @@ color: black;
 }
 
 .imagen-congelado{
-width: 13%;
-height: 13%;
+width: 250px;
+height: 250px;
 border: 5px solid rgb(164, 211, 33);
-margin-right: 5%;
 }
 
 .imagen-choco {
-width: 15%;
-height: 15%;
+width: 250px;
+height: 250px;
 border: 5px solid rgb(164, 211, 33);
-margin-left: 5%;
 }
 
 .footer {
