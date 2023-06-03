@@ -63,11 +63,16 @@
  </section>
 
 <!-- Formulario de contacto-->
+
+<section class ="container-fluid d-flex justify-content-center">
+  <div class="contenedor row">
+    
 <form action="https://formsubmit.co/tequenita2021@gmail.com" method="POST">
     <div class="contenedor__formulario">
        <p class="equipo">¿Querés formar parte de nuestro equipo?</p>
        <p>LLená el siguiente formulario y nos comunicamos con vos a la brevedad posible.</p>
-           <div class="mb-3">
+  
+            <div class="mb-3">
                <label for="exampleInputEmail1" class="form-label">Nombre</label>
                <input type="text" id="name" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
            </div>
@@ -89,20 +94,22 @@
                <label>Mensaje</label>
                <textarea name="mensaje" required></textarea>
            </p>
-           </div>
+          </div>
    
            <div>
                <label for="archivo">Subí tu C.V. aquí</label>
                <input type="file" id="archivo" name="archivo">
            </div>
+          
          
        <button id="enviar" type="submit" class="btn boton__formulario" value="Enviar" onclick="mostrarAlerta()">Enviar</a></button>
        <input type="hidden" name="_next" value="http://127.0.0.1:5501/"> 
        <input type="hidden" name="_captcha" value="false">
 
-      
-   </div>
+      </div>
    </form>
+  </div>
+  </section>
 
 
    <script src="../codigo.js"></script>

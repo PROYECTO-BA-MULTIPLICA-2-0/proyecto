@@ -308,38 +308,36 @@ font-family: 'Quicksand', sans-serif;
 .equipo{
     font-weight: bold;
   }
-  .container__formulario{
-    width: 500px;
-    margin-bottom: 5rem;
-  }
   
-  .contenedor__formulario{
-  margin: 4rem auto;
-  width: 500px;
-  /* text-align: center; */
-  }
-  
-  
+.formulario { 
+    justify-content: center;
+    display: flex;
+}
   .contenedor__formulario h1{
       text-align: center;
       font-size: 30px;
       font-family: 'Quicksand', sans-serif;
       margin: 2rem 0rem;
+      justify-content: center;
+      align-items: center;
   }
   
   label {
       display: block;
+      justify-content: center;
+      text-align: center;
     }
   
     textarea {
       width: 100%;
       padding: 1rem;
     }
-  
+
     textarea {
       resize: none;
     }
   
+
   .full {
     grid-column: 1 / 3;
   }
