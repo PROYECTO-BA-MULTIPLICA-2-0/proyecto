@@ -175,15 +175,6 @@ height: 250px;
 border: 5px solid rgb(164, 211, 33);
 }
 
-.footer {
-    margin-top: 2%;
-    background-color: rgb(224, 153, 22);
-    width: cover;
-height: 60px;
-max-width:100%;
-text-align: center;
-border: 5px solid rgb(196, 214, 30);
-}
 
 /* seccion nosotros */
 
@@ -196,10 +187,14 @@ margin: 4rem 0rem;
     font-size: large;
 }
 
-.texto_nosotros {
-margin: 0rem 12rem 0rem 4rem;
 
+.historia {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
 }
+
 
 .imagen_nosotros {
     display: flex;  
@@ -211,23 +206,11 @@ width: 20%;
 justify-content: center;
 }
 
-.Texto_instagram { 
-margin: 0rem 12rem 0rem 4rem;
-margin-top: 2%;
-}
-
-.QR { 
-    margin-top: 5%;
-}
-
-.video__instagram{
-    display: flex;
+.imagen_nosotros2 img {
+    width: 500px; 
     justify-content: center;
-}
+    }
 
-.video__nosotros{
-    margin-left: 4rem;
-}
 
 .video__nosotros{
 display: flex;  
@@ -235,14 +218,27 @@ justify-content: center;
 }
 
 .imagen_instagram { 
-    display: flex;  
+display: flex;  
 justify-content: center;
 margin-top: 2%;
 }
 
+.video_instagram { 
+    display: flex;
+}
+
 .video___instagram { 
     margin-right: 3%;
+    justify-content: center;
+    display: flex;
 }
+
+.QR { 
+    margin-top: 5%;
+    text-align: center;
+    margin-left: 10px;
+}
+
 
 /* SECCION DE MENÚ */
 
@@ -428,4 +424,14 @@ display:block;
 margin-right:0;
 font-weight:600
 }
+}
+
+.footer {
+    margin-top: 2%;
+    background-color: rgb(224, 153, 22);
+    width: cover;
+height: 60px;
+max-width:100%;
+text-align: center;
+border: 5px solid rgb(196, 214, 30);
 }
