@@ -298,10 +298,11 @@ font-family: 'Quicksand', sans-serif;
 }
 
 .imagen_contacto {
-    width: 400px;
+    width: 75%;
     margin: auto;
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 /* Formulario de contacto */
 .equipo{
