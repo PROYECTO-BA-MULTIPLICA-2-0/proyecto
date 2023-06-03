@@ -15,29 +15,39 @@
 <body>     <!-- Body=Contenido de mi página -->
 
 <header>   <!-- Este es el header, Cabecera -Inicio de mi página  -->
-  <div class="fondo">
-    <img class="imagen" src="imagenes/tequenita.jpg"alt="imagen">
-      <div class="titulo">
-        <h1> TEQUENITA</h1>
-      </div>
+  <section class="fondo">
+        <h1 class="titulo"> TEQUENITA</h1>
   </div>
+</section>
 </header>
 
    <!-- Esta es mi barra de navegación -->
-<nav>
-  <div class="BarraNav">  
-    <div class="ul">
-      <ul>
-        <div class="li">
-          <li><a href="index.html"> Inicio </a></li>
-          <li> <a href="SECCIONES/Nosotros.html"> Nosotros </a></li>
-          <li> <a href= "SECCIONES/Menu.html">  Menú</a></li>
-          <li> <a href= "SECCIONES/Empleo.html">  Empleo </a></li>
-        </div>
-      </ul>
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <img class="imagennav" src="imagenes/tequenita.jpg"alt="imagen">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse alineacion2" id="navbarNavDropdown">
+        <ul class="navbar-nav ">
+          <li class="nav-item alineacion">
+            <a href="index.html"> Inicio </a>
+          </li>
+          <li class="nav-item alineacion">
+            <a href="SECCIONES/Nosotros.html"> Nosotros </a>
+          </li>
+          <li class="nav-item alineacion">
+            <a href= "SECCIONES/Menu.html">Menú</a>
+          </li>
+          <li class="nav-item alineacion">
+            <a href= "SECCIONES/Empleo.html">  Empleo </a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>   
+  </nav>
+  
+
 
 <!-- acá empieza el carrousel -->
 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -68,27 +78,27 @@
 <p class="productos">CONOCE NUESTROS PRODUCTOS</p> 
 
 <!-- Acá empiezan mis circulos -->
-<section>
-  <div class="contenedor"> <!-- circulo 1 -->
-    <div class="circulo-comentario" >
+<section class="container-fluid">
+  <div class="contenedor row"> <!-- circulo 1 -->
+    <div class="circulo-comentario col-12 col-sm-6 col-lg 3" >
       <div class="circle">
         <img src="imagenes/teque.jpg" alt="tequeños">
       </div>
       <p>TEQUEÑOS</p>
     </div>
-    <div class="circulo-comentario"> <!-- circulo 2 -->
+    <div class="circulo-comentario col-12 col-sm-6 col-lg 3"> <!-- circulo 2 -->
       <div class= "circle">
         <img src="imagenes/tequechoco.jpg" alt="tequeños chocolates">
       </div>
     <p>TEQUEÑOS DE CHOCOLATE</p>
     </div>
-    <div class="circulo-comentario">  <!--  circulo3 -->
+    <div class="circulo-comentario col-12 col-sm-6 col-lg 3">  <!--  circulo3 -->
       <div class="circle">
         <img src="imagenes/congelados.jpg" alt="tequeños congelados">
       </div>
     <p>TEQUEÑOS CONGELADOS</p>
     </div>
-    <div class="circulo-comentario"> <!-- circulo4 -->
+    <div class="circulo-comentario col-12 col-sm-6 col-lg 3"> <!-- circulo4 -->
       <div class="circle">
           <img src="imagenes/compartir.jpg" alt="compartir Tequeños">
       </div>
