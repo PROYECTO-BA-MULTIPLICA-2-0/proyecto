@@ -245,7 +245,7 @@ margin-top: 2%;
 .Menu{
     display: flex;
     background-color: rgb(233, 213, 102);
-    width: 50%;
+    width: 80%;
     margin: auto;
     margin-top: 2%;
     border: 5px solid rgb(196, 214, 30);
@@ -256,6 +256,10 @@ margin-top: 2%;
 }
 .texto_menu { 
    margin-left: 5%;
+}
+
+.contenido { 
+    font-size: 30px;
 }
 
 .menu_tequenita { 
@@ -270,7 +274,7 @@ margin-top: 2%;
 }
 
 .Promociones {
-    font-size: large;
+    font-size: 30px;
     text-align: center;
 }
 
